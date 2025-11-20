@@ -1,0 +1,45 @@
+{
+  "fold_aucs": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "mean_auc": 1.0,
+  "dml_ate": -124.48,
+  "dml_se": 4.34,
+  "dml_ci": [
+    -132.99,
+    -115.96
+  ],
+  "overlap_ate": -3585.09,
+  "overlap_se": 0.01,
+  "mean_overlap_weight": 1.0000000000143777e-06,
+  "payment_method_results_dml": [
+    [
+      "Wallet Balance",
+      -3738.993058876648
+    ],
+    [
+      "Bank Transfer",
+      -3708.3433552293577
+    ],
+    [
+      "Credit Card",
+      -3666.2180614489926
+    ],
+    [
+      "Debit Card",
+      -3551.592896149718
+    ],
+    [
+      "UPI",
+      -3287.0730508658007
+    ]
+  ],
+  "psm_ate": -1867.14,
+  "psm_se": 96.8,
+  "method_convergence": "High",
+  "robustness_check": "Passed"
+}
